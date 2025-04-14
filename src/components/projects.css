@@ -1,0 +1,10 @@
+.project-section h4 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.project-section p {
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}

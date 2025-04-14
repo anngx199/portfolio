@@ -1,0 +1,30 @@
+.project-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+    .project-section h3 {
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+/* Update hover effect */
+.portfolio-item .hover-text {
+    background: rgba(211, 211, 211, 0.7); /* light gray with slight transparency */
+    color: #000;
+    transition: background 0.3s ease;
+}
+
+    .portfolio-item .hover-text h4 {
+        font-family: 'DM Sans', sans-serif; /* or any clean modern font */
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+.portfolio-item img {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.03);
+}
